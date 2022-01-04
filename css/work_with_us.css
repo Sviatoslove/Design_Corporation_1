@@ -1,0 +1,40 @@
+.work_with_us {
+  padding: 110px 0 202px 0;
+}
+.work {
+  display: flex;
+  margin-top: 40px;
+}
+.work img {
+  max-width: 543px;
+  width: 100%;
+  height: 668px;
+}
+.benefits {
+  text-align: center;
+}
+.with {
+  max-width: 375px;
+  width: 100%;
+  margin-top: 187px;
+}
+.with li:not(:last-child) {
+  margin-bottom: 66px;
+}
+.us {
+  display: flex;
+}
+.us span {
+  font-size: 31px;
+  line-height: 37px;
+  color: rgba(0, 0, 0, 0.48);
+}
+.numbers {
+  text-align: left;
+  margin-left: 20px;
+}
+.numbers p {
+
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.76);
+}

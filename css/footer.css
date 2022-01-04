@@ -1,0 +1,27 @@
+.footer {
+  padding: 49px 0 48px;
+  background-color: #efefef;
+}
+.about_us {
+  max-width: 623px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.about_us > div {
+  font-size: 27px;
+  line-height: 36px;
+  font-family: Roboto Slab;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.design p {
+  font-weight: 300;
+}
+.about_us > p {
+  font-size: 13px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.47);
+}

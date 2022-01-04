@@ -1,0 +1,61 @@
+.header {
+  padding: 73px 0 222px 0;
+  background-color: #fff;
+}
+.design {
+  font-size: 27px;
+  line-height: 36px;
+  font-family: Roboto Slab;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  width: 36px;
+  height: 36px;
+  border: 1px solid #000;
+  margin-right: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+h1 {
+  max-width: 850px;
+  width: 100%;
+  text-align: center;
+  margin: 190px auto 35px;
+}
+.free_days {
+  max-width: 658px;
+  width: 100%;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 0 auto;
+  text-align: center;
+}
+.buttons {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin-top: 95px;
+}
+.buttons a {
+  min-width: 246px;
+  height: 66px;
+  text-decoration: none;
+  border-radius: 5px;
+  color: #000;
+  background-color: #f4c32f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button_design {
+  margin-right: 45px;
+}
+.buttons .button_more {
+  background-color: transparent;
+  border: 1px solid #000;
+}
