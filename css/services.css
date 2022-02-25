@@ -18,7 +18,7 @@ text-align: center;
   width: 100%;
   margin-right: 67px;
 }
-.our_services li:nth-child(3n){
+.our_services li:nth-child(3n) {
   margin: 0;
 }
 .our_services li:not(:nth-child(-n+3)) {

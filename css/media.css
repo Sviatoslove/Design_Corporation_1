@@ -1,0 +1,120 @@
+/*---------------------- Media Queries-------------- */
+
+/* 992- 1200px */
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 940px;
+  }
+  .our_services {
+    justify-content: center;
+  }
+  .our_services li {
+    margin-right: 67px;
+  }
+  .our_services li:nth-child(3n) {
+    margin: 62px 67px 0 0;
+  }
+  .work {
+    justify-content: center;
+  }
+  .work img {
+    width: 30%;
+    height: 30%;
+  }
+  .with {
+    width: 30%;
+    margin: 0;
+  }
+
+}
+/* 768-992px */
+@media screen and (max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+  .our_services {
+    justify-content: space-around;
+  }
+  .our_services li {
+    margin-right: 0;
+    width: 40%;
+  }
+  .our_services li:nth-child(3n) {
+    margin-right: 0;
+  }
+  .work_with_us {
+    padding: 110px 0 100px 0;
+  }
+  .with li:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+/* 576-768px */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 520px;
+  }
+  .buttons a {
+    min-width: 220px;
+  }
+  .work {
+    flex-direction: column;
+  }
+  .with {
+    width: 100%;
+    max-width: none;
+    display: flex;
+  }
+  .us {
+    display: block;
+  }
+  .numbers {
+    margin-left: 0;
+  }
+  .numbers h3 {
+    font-size: 18px;
+  }
+  .work img {
+    width: 100%;
+    height: 100%;
+  }
+}
+/* 320-576px  */
+@media screen and (max-width: 576px) {
+  .container {
+    width: 90%;
+  }
+  .buttons {
+    flex-direction: column;
+    margin: 95px auto 0;
+    width: 90%;
+  }
+  .button_design {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .our_services li {
+    width: 100%;
+}
+  .our_services li:nth-child(2n) {
+    margin: 62px 0 0 0;
+  }
+  .benefits {
+    font-size: 34px;
+  }
+  .with {
+    flex-direction: column;
+  }
+  .us {
+    display: flex;
+  }
+  .numbers {
+    margin-left: 20px;
+  }
+  .about_us {
+    flex-direction: column;
+  }
+  .design {
+    margin: 10px auto;
+  }
+}
